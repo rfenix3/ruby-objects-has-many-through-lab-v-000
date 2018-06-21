@@ -1,7 +1,7 @@
   # song = appointment, genre = patient, artist = doctor
 
 class Appointment
-  attr_accessor :name, :doctor, :patient
+  attr_accessor :date, :doctor, :patient
   
   @@all = []
   
